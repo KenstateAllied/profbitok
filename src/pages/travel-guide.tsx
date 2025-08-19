@@ -48,7 +48,7 @@ const Travel: NextPage = () => {
           <div className="info-block">
             <h1 className="info-heading">Hotels</h1>
             <div className="info-inner-container-reversed reversed-text-first">
-              <AnimatedImage imagePath="/images/hotels.webp" position="right" />
+              <AnimatedImage imagePath="/images/airport.jpg" position="right" />
               <AnimatedParagraph position="left">
                 Wenn du lebhaftere Orte magst, kannst du ein Hotel im
                 Stadtzentrum buchen, zum Beispiel Hilton Berlin. Andererseits
@@ -79,7 +79,7 @@ const Travel: NextPage = () => {
             <div className="info-block">
               <div className="info-inner-container reversed-text-first">
                 <AnimatedImage
-                  imagePath={"/images/foodcollage.jpg"}
+                  imagePath={"/images/eka1.jpg"}
                   position="left"
                 />
                 <AnimatedList position="left" fullWidth={false}>
@@ -129,7 +129,7 @@ const Travel: NextPage = () => {
               </AnimatedParagraph>
               <AnimatedImage
                 position="left"
-                imagePath="/images/marketing.gif"
+                imagePath="/images/mtrh.jpeg"
               />
             </div>
           </div>
