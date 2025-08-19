@@ -31,7 +31,7 @@ const FooterColumnLink: FC<FooterColumnLinkProps> = ({ text, location }) => {
 export const Footer: FC = () => {
   // setting up a state holding the current screen width
   const [windowWidth, setWindowWidth] = useState(() => 0);
-  const logoPath = "/images/logo.png";
+  const logoPath = "/images/countylogo.jpg";
 
   useEffect(() => {
     const handleResize = () => {
@@ -64,7 +64,7 @@ export const Footer: FC = () => {
       <FooterMobileLink text="Sports" location="/sports" />
 
       <div className="footer-sub__copyright mobile">
-        2021 © Tim &nbsp;&nbsp;All Rights Reserved
+        2025 © Kenstate Allied &nbsp;&nbsp;All Rights Reserved
       </div>
     </footer>
   ) : (
@@ -107,7 +107,7 @@ export const Footer: FC = () => {
       </div>
       <div className="footer-sub">
         <div className="footer-sub__copyright">
-          2021 © Cristina {"&"} Tim &nbsp;&nbsp;All Rights Reserved
+          2025 © Kenstate Allied &nbsp;&nbsp;All Rights Reserved
         </div>
       </div>
     </footer>

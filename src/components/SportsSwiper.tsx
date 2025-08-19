@@ -17,24 +17,24 @@ export default function SportsCarousel() {
         <img
           className="swiper-image"
           style={{ borderRadius: "15px" }}
-          src={"/images/marathon.jpg"}
+          src={"/images/dairy.jpeg"}
           alt=""
         />
         <p className="legend">Berlin BWM Marathon</p>
       </div>
       <div>
-        <img className="swiper-image" src={"/images/snooker.jpg"} alt="" />
+        <img className="swiper-image" src={"/images/maize1.jpeg"} alt="" />
         <p className="legend">
           Dude playing snooker with another guy watching him. Chill, it's just a
           random picture, nothing related to berlin{" ;)"}
         </p>
       </div>
       <div>
-        <img className="swiper-image" src={"/images/olympics0.jpg"} alt="" />
+        <img className="swiper-image" src={"/images/dorper.jpeg"} alt="" />
         <p className="legend">1936 Summer Olympics</p>
       </div>
       <div>
-        <img className="swiper-image" src={"/images/italy.jpg"} alt="" />
+        <img className="swiper-image" src={"/images/wheat.jpeg"} alt="" />
         <p className="legend">
           Italy national football team celebrating for winning 2006 World Cup
         </p>

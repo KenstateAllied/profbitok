@@ -7,43 +7,43 @@ import { OlympianCard } from "../components/OlympianCard";
 const OLYMPIANS = [
   {
     name: "Christoph Harting",
-    img: "/images/christoph.jpg",
+    img: "/images/farouk.jpeg",
     description: "Diskuswerfer",
   },
   {
     name: "Franziska van Almsick",
-    img: "/images/franziska.jpg",
+    img: "/images/sudi.jpeg",
     description: "Schwimmer",
   },
 
   {
     name: "Jochen Schümann",
-    img: "/images/jochen.jpg",
+    img: "/images/shollei.jpeg",
     description: "Seefahrer",
   },
   {
     name: "Claudia Pechstein",
-    img: "/images/claudia.jpg",
+    img: "/images/bartoo.jpeg",
     description: "Skater",
   },
   {
     name: "Laura Ludwig",
-    img: "/images/laura.jpg",
+    img: "/images/sitienei.jpeg",
     description: "Beachvolleyballer",
   },
   {
     name: "Hagen Stamm",
-    img: "/images/hagen.jpg",
+    img: "/images/kiplagat.jpeg",
     description: "Wasserballer",
   },
   {
     name: "Ulf Timmermann",
-    img: "/images/ulf.jpg",
+    img: "/images/ruto.jpeg",
     description: "Kugelstoßer",
   },
   {
     name: "Katarina Witt",
-    img: "/images/katarina.webp",
+    img: "/images/chepkonga.jpeg",
     description: "Eiskunstläuferin",
   },
 ];

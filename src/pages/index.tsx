@@ -94,7 +94,7 @@ const Home: NextPage = () => {
             <h1 className="info-heading">Prominente</h1>
             <div className="info-inner-container-reversed reversed-text-first">
               <AnimatedImage
-                imagePath="/images/office.jpg"
+                imagePath="/images/office.png"
                 position="right"
               />
               <AnimatedParagraph position="left">
