@@ -39,7 +39,7 @@ const Home: NextPage = () => {
             </h1>
             <div className="info-inner-container lots-of-text reversed-text-first">
               <AnimatedImage
-                imagePath={"/images/berlin0.jpg"}
+                imagePath={"/images/2nd-governor.jpg"}
                 position="left"
               />
               <AnimatedParagraph position="right">
@@ -63,7 +63,7 @@ const Home: NextPage = () => {
           <div className="info-block">
             <h1 className="info-heading">Die Geschichte Kurze</h1>
             <div className="info-inner-container-reversed reversed-text-first">
-              <AnimatedImage imagePath="/images/battle0.jpg" position="right" />
+              <AnimatedImage imagePath="/images/countyhq.jpg" position="right" />
               <AnimatedParagraph position="left">
                 Berlin begann zunächst im <Highlight>13 Jahrhundert</Highlight>
                 und es steigt unaufhaltsam weiter. Nach
@@ -77,7 +77,7 @@ const Home: NextPage = () => {
             <h1 className="info-heading">Dialekt von das Gebiet</h1>
             <div className="info-inner-container reversed-text-first">
               <AnimatedImage
-                imagePath="/images/communication.jpg"
+                imagePath="/images/countylogo.jpg"
                 position="left"
               />
               <AnimatedParagraph position="right">
@@ -94,7 +94,7 @@ const Home: NextPage = () => {
             <h1 className="info-heading">Prominente</h1>
             <div className="info-inner-container-reversed reversed-text-first">
               <AnimatedImage
-                imagePath="/images/celebrities.jpg"
+                imagePath="/images/office.jpg"
                 position="right"
               />
               <AnimatedParagraph position="left">
@@ -119,7 +119,7 @@ const Home: NextPage = () => {
             <h1 className="info-heading">Traditionelle Festivals</h1>
             <div className="info-inner-container reversed-text-first">
               <AnimatedImage
-                imagePath="/images/celebrate.jpg"
+                imagePath="/images/maize.jpg"
                 position="left"
               />
               <AnimatedParagraph position="right">
