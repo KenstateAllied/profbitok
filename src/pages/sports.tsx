@@ -6,45 +6,45 @@ import { OlympianCard } from "../components/OlympianCard";
 
 const OLYMPIANS = [
   {
-    name: "Christoph Harting",
+    name: "Farouk Kibet Teigut",
     img: "/images/farouk.jpeg",
-    description: "Diskuswerfer",
+    description: "Office of the President",
   },
   {
-    name: "Franziska van Almsick",
+    name: "Oscar Sudi",
     img: "/images/sudi.jpeg",
-    description: "Schwimmer",
+    description: "MP Kapseret",
   },
 
   {
-    name: "Jochen Schümann",
+    name: "Gladys Boss",
     img: "/images/shollei.jpeg",
-    description: "Seefahrer",
+    description: "Women Rep",
   },
   {
-    name: "Claudia Pechstein",
+    name: "Phylis Bartoo",
     img: "/images/bartoo.jpeg",
-    description: "Skater",
+    description: "MP Moiben",
   },
   {
-    name: "Laura Ludwig",
+    name: "Janet Sitienei",
     img: "/images/sitienei.jpeg",
-    description: "Beachvolleyballer",
+    description: "MP Turbo",
   },
   {
-    name: "Hagen Stamm",
+    name: "David Kiplagat",
     img: "/images/kiplagat.jpeg",
-    description: "Wasserballer",
+    description: "MP Soy",
   },
   {
-    name: "Ulf Timmermann",
+    name: "Jullius Ruto",
     img: "/images/ruto.jpeg",
-    description: "Kugelstoßer",
+    description: "MP Kesses",
   },
   {
-    name: "Katarina Witt",
+    name: "Samuel Chepkonga",
     img: "/images/chepkonga.jpeg",
-    description: "Eiskunstläuferin",
+    description: "MP Ainabkoi",
   },
 ];
 
@@ -69,11 +69,11 @@ export default function Sports() {
     <>
       <div className="page-header" id="sports-page-header">
         <Nav transparent={false} />
-        <h1 className="page-heading">Sportarten</h1>
+        <h1 className="page-heading">Home of Champions</h1>
       </div>
       <div id="sports-page" className="page-content">
         <h1 style={{ margin: "35px" }} className="info-heading">
-          Sportarten beliebt und Sportveranstaltungen
+          Markets and Leadership
         </h1>
         <div className="ps-relative dp-block margined-div">
           Berlin ist eine Stadt überlegen in viele Felder, einschließlich
@@ -104,7 +104,7 @@ export default function Sports() {
           <SportsSwiper />
         </div>
         <h1 style={{ margin: "35px" }} className="info-heading">
-          Olympioniken
+          Uasin Gishu Current Leaders
         </h1>
         <section className="olympians-section">
           <div className="olympians-container">{cards.slice(0, 4)}</div>

@@ -78,7 +78,7 @@ export const Footer: FC = () => {
             alt="Logo"
           />
           <h5 className="footer-column-title">Our Goal</h5>
-          <p style={{ fontSize: "16px" }}>Learn German</p>
+          <p style={{ fontSize: "16px" }}>Build & Market Uasin Gishu</p>
         </div>
         <div className="footer-main__column">
           <h5 className="footer-column-title">Support</h5>

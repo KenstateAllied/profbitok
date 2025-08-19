@@ -8,9 +8,9 @@ import { Footer } from "../components/Footer";
 import Head from "next/head";
 
 const metadata = {
-  title: "Dream of Berlin",
+  title: "Uasin Gishu",
   image: "",
-  description: "Get to know about the awesome city of Berlin!",
+  description: "Get to know about the awesome county!",
 };
 
 const App = ({ Component, pageProps }: AppProps) => {
@@ -23,7 +23,7 @@ const App = ({ Component, pageProps }: AppProps) => {
         <title>{metadata.title}</title>
         <meta name="title" content={metadata.title} />
         <meta name="description" content={metadata.title} />
-        <meta name="keywords" content="auction, platform, trade" />
+        <meta name="keywords" content="kenya, uasin gishu, eldoret" />
         <meta name="robots" content="index, follow" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="language" content="English" />
