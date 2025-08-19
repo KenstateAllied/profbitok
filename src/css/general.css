@@ -1,0 +1,57 @@
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--content-bg-color) !important;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: var(--content-color) !important;
+  font-family: "Rubik Regular" !important;
+  margin: 0 0;
+}
+
+.page-content {
+  z-index: 50;
+  display: block;
+  padding: 3px;
+  min-width: var(--min-width);
+}
+
+.link-text {
+  color: rgb(255, 217, 0);
+}
+
+.link-text:hover {
+  color: rgb(255, 218, 8);
+  text-decoration: underline;
+}
+
+.number-mark {
+  background: none;
+  font-size: calc(var(--paragraph-size) + 2px);
+  color: rgb(255, 217, 0);
+}
+
+@media screen and (max-width: 260px) {
+  .page-content {
+    z-index: 50;
+    padding: 0px;
+  }
+}
+
+.ps-absolute {
+  position: absolute;
+}
+
+.ps-relative {
+  position: relative;
+}
+
+.ps-sticky {
+  position: sticky;
+}
+
+.dp-block {
+  display: block;
+}
