@@ -27,7 +27,7 @@ const Home: NextPage = () => {
       <div className="page-header">
         <Nav transparent={scrollY <= 300} />
         <h1 className="page-heading" id="home-page-header">
-          Berlin - the city in your dream.
+          Uasin Gishu - Home of Champions
         </h1>
       </div>
 

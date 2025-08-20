@@ -95,7 +95,7 @@ export const Nav: FC<NavbarProps> = (props) => {
         }
         href="/sports"
       >
-        Sports
+        Politics & Leadership
       </a>
       <a
         className={
@@ -105,7 +105,7 @@ export const Nav: FC<NavbarProps> = (props) => {
         }
         href="/political-parties"
       >
-        Political Parties
+        Economic Activities
       </a>
       <a
         className={
@@ -113,7 +113,7 @@ export const Nav: FC<NavbarProps> = (props) => {
         }
         href="/travel-guide"
       >
-        Travel Guide
+        Institutions & Infrastructure
       </a>
 
       <a style={{ float: "left" }} className="nav-item" href="/">
@@ -140,10 +140,10 @@ export const Nav: FC<NavbarProps> = (props) => {
           <img src={"/images/logo.png"} className="nav-logo" alt="nav-logo" />
         </SidebarItem>
         <SidebarItem location="/political-parties">
-          Political Parties
+          Economic Activities
         </SidebarItem>
-        <SidebarItem location="/travel-guide">Travel Guide</SidebarItem>
-        <SidebarItem location="/sports">Sports</SidebarItem>
+        <SidebarItem location="/travel-guide">Institutions & Infrastructure</SidebarItem>
+        <SidebarItem location="/sports">Politics & Leadership</SidebarItem>
       </div>
     </>
   );

@@ -53,10 +53,10 @@ export const Footer: FC = () => {
     <footer className="footer-mobile footer">
       <div className="footer-mobile-links footer-mobile-header">
         <img src={logoPath} alt="logo" />
-        <h6>Dream of Berlin</h6>
+        <h6>Uasin Gishu</h6>
       </div>
       <FooterMobileLink text="Home" location="/" />
-      <FooterMobileLink text="Travel Guide" location="/travel-guide" />
+      <FooterMobileLink text="Institutions & Infrastructure" location="/travel-guide" />
       <FooterMobileLink
         text="Political Parties"
         location="/political-parties"
@@ -95,9 +95,9 @@ export const Footer: FC = () => {
           </a>
         </div>
         <div className="footer-main__column">
-          <h5 className="footer-column-title">Read about Berlin</h5>
+          <h5 className="footer-column-title">Uasin Gishu</h5>
           <FooterColumnLink text="Home" location="/" />
-          <FooterColumnLink text="Travel Guide" location="/travel-guide" />
+          <FooterColumnLink text="Institutions & Infrastructure" location="/travel-guide" />
           <FooterColumnLink text="Sports" location="/sports" />
           <FooterColumnLink
             text="Political Parties"
