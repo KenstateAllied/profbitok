@@ -20,23 +20,22 @@ export default function SportsCarousel() {
           src={"/images/dairy.jpeg"}
           alt=""
         />
-        <p className="legend">Berlin BWM Marathon</p>
+        <p className="legend">Dairy Farming</p>
       </div>
       <div>
-        <img className="swiper-image" src={"/images/maize1.jpeg"} alt="" />
+        <img className="swiper-image" src={"/images/maize.jpg"} alt="" />
         <p className="legend">
-          Dude playing snooker with another guy watching him. Chill, it's just a
-          random picture, nothing related to berlin{" ;)"}
+          Maize Crop
         </p>
       </div>
       <div>
         <img className="swiper-image" src={"/images/dorper.jpeg"} alt="" />
-        <p className="legend">1936 Summer Olympics</p>
+        <p className="legend">Dorper & Dairy Goat Farming</p>
       </div>
       <div>
-        <img className="swiper-image" src={"/images/wheat.jpeg"} alt="" />
+        <img className="swiper-image" src={"/images/moiben.jpg"} alt="" />
         <p className="legend">
-          Italy national football team celebrating for winning 2006 World Cup
+          Wheat Farming
         </p>
       </div>
     </Carousel>

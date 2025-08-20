@@ -26,54 +26,72 @@ const Travel: NextPage = () => {
     <>
       <div className="page-header" id="travel-page-header">
         <Nav transparent={false} />
-        <h1 className="page-heading">Reiseführer</h1>
+        <h1 className="page-heading">Institutions & Infrastructure</h1>
       </div>
       <div id="travel-page" className="page-content">
         <div className="content-wrapper">
           <div className="info-block">
-            <h1 className="info-heading">Touristische Attraktionen</h1>
+            <h1 className="info-heading">Gateway to Western & North Rift</h1>
             <div className="info-inner-container attractions-info-container">
               <AnimatedParagraph fullWidth={true} position="right">
-                Berlin ist eine ziemlich historische Stadt. Folglich kann man
-                die Geschichte genießen und viele wunderbare Sehenswürdigkeiten
-                besuchen (zum Beispiel das Pergamonmuseum).
-                <br />
-                Hier stehen viele touristische Attraktionen zur Verfügung (Sieh
-                den Stadtplan unten), wir empfehlen Ihnen, sie besichtigen wenn
-                du in Berlin reist.
+                Eldoret City is more than just a gateway—it’s a vital hub for regional trade, a strategic export point for regional farmers, and a potential logistics powerhouse as growth continues
               </AnimatedParagraph>
               <AttractionsMap />
             </div>
           </div>
           <div className="info-block">
-            <h1 className="info-heading">Hotels</h1>
+            <h1 className="info-heading">Air travel</h1>
             <div className="info-inner-container-reversed reversed-text-first">
               <AnimatedImage imagePath="/images/airport.jpg" position="right" />
               <AnimatedParagraph position="left">
-                Wenn du lebhaftere Orte magst, kannst du ein Hotel im
-                Stadtzentrum buchen, zum Beispiel Hilton Berlin. Andererseits
-                wenn du ruhige Orte bevorzugst, kannst du ein Hotel weiter weg
-                von Stadtzentrum wie
-                <Link href="https://www.google.com/travel/hotels/Berlin/entity/ChcItd7P5JvvzrlTGgsvZy8xdHQxcnFtZhAB?g2lb=2502548%2C2503781%2C4258168%2C4270442%2C4306835%2C4317915%2C4371335%2C4401769%2C4419364%2C4482438%2C4486153%2C4509341%2C4536454%2C4545889%2C4564872%2C4570611%2C4270859%2C4284970%2C4291517&hl=en-ES&gl=es&ssta=1&ap=SAEwAVqOAwoFCJYBEAAiA0VVUioWCgcI5Q8QBhgcEgcI5Q8QBhgdGAEoALABAFgBaAFyBAgCGACaARESD0JlcmxpbiwgR2VybWFueaIBEgoIL20vMDE1NnESBkJlcmxpbqoBKwoCCCESAghVEgIIDxICCBUSAggNEgIIZxICCFsSAwiUAhICCC8SAghaGAGqAQYKAghiGACqARMKAggSEgMImwESAghoEgIIaRgBqgEKCgIIFBICCBsYAaoBEgoCCBwSAghzEgIINhICCCkYAaoBCgoCCCUSAgh1GAGqARoKAggREgIIKhICCEASAgg4EgIIVxICCAIYAaoBKAoCCC4SAwiAARICCDsSAghWEgIIPRIDCIEBEgIIAxICCAwSAggnGAGqAREKAwiuARIDCLMBEgMIsgEYAaoBBwoDCKcBGACqARYKAwipARIDCKsBEgMIqgESAwisARgBqgEGCgIIRhgAqgEPCgIIUBIDCIQBEgIITxgBqgEMCgMIowESAwikARgBqgEHCgMI_QEYAJIBAiABaAA&q=berlin%20hotels&rp=ogEPQmVybGluLCBHZXJtYW55OAFAAEgC&ictx=1&utm_campaign=sharing&utm_medium=link&utm_source=htls&ts=CAESCgoCCAMKAggDEAAaMwoVEhE6D0JlcmxpbiwgR2VybWFueRoAEhoSFAoHCOUPEAYYHBIHCOUPEAYYHRgBMgIQACoNCgcoAToDRVVSGgAoCQ&ved=0CAAQ5JsGahcKEwiwtqPwm5DxAhUAAAAAHQAAAAAQBA">
-                  Landgasthof zum Mühlenteich
+                Eldoret has daily scheduled flights, mostly connecting to Nairobi and coastal towns:
+
+✈️ Domestic Airlines Serving Eldoret
+
+Jambojet (low-cost subsidiary of Kenya Airways)
+
+Routes: Nairobi (JKIA & Wilson), Mombasa, Kisumu (seasonal).
+
+Skyward Express
+
+Routes: Nairobi Wilson, Lodwar, Mombasa.
+
+Fly540
+
+Routes: Nairobi Wilson (occasional schedules).
+
+Kenya Airways (KQ)
+
+Routes: Sometimes operates via Jambojet codeshare to Eldoret.
+
+Flight duration between Eldoret and Nairobi is about 45 to 55 minutes.
+Eldoret also has an airstrip
+
+🌍 International & Cargo Connections
+
+While Eldoret International is primarily domestic for passengers, it is a major cargo hub.
+
+Cargo airlines like Ethiopian Airlines, Emirates SkyCargo, and Astral Aviation connect Eldoret to Dubai, Sharjah, Addis Ababa, and other hubs.
+
+This is especially important for flower, fruits, and vegetable exports.
+                <Link href="https://www.kaa.go.ke/?v=25bc6654798e">
+                  Kenya Airports Authority
                 </Link>
-                buchen. Check den
+                
                 <Link href="https://www.google.com/travel/hotels/Berlin?g2lb=2502548%2C2503781%2C4258168%2C4270442%2C4306835%2C4317915%2C4371335%2C4401769%2C4419364%2C4482438%2C4486153%2C4509341%2C4536454%2C4545889%2C4564872%2C4570611%2C4270859%2C4284970%2C4291517&hl=en-ES&gl=es&ssta=1&ap=SAFoAQ&q=berlin%20hotels&rp=EKGPsurfv5e1rQEQ4Jynt_W738S8ARDLjIjJjLyH6C8Q2f3tmL_9t_IZOAFAAEgCogEPQmVybGluLCBHZXJtYW55&ictx=1&ved=0CAAQ5JsGahcKEwiYwOySm5DxAhUAAAAAHQAAAAAQAg&utm_campaign=sharing&utm_medium=link&utm_source=htls&ts=CAESCgoCCAMKAggDEAAaMwoVEhE6D0JlcmxpbiwgR2VybWFueRoAEhoSFAoHCOUPEAYYHBIHCOUPEAYYHRgBMgIQACoLCgcoAToDRVVSGgA">
                   link
                 </Link>
-                für mehr Information.
+                
               </AnimatedParagraph>
             </div>
           </div>
           <section className="content-section food-content">
-            <h1 className="info-heading">Essen und Restaurants</h1>
+            <h1 className="info-heading">Travel & Hospitality</h1>
             <AnimatedParagraph position="right">
-              Es ist auch eine schöne Stadt mit allen Art von leckeren Speisen
-              in unterschiedlichen Restaurants.
+              Eldoret has really grown into a hospitality hub in western Kenya thanks to its position as a commercial center, farming capital, and athletics hotspot
               <b>
                 <br />
-                Hier sind enige der traditionellen Gerichte einen Versuch wert
-                sind.
+                
               </b>
             </AnimatedParagraph>
             <div className="info-block">
@@ -83,49 +101,59 @@ const Travel: NextPage = () => {
                   position="left"
                 />
                 <AnimatedList position="left" fullWidth={false}>
-                  <li>
-                    Schnitzel: ein Stück Fleisch, mit Mehl, Ei und Semmelbrösel
-                    bedeckt und dann in Öl frittiert
-                  </li>
-                  <li>Döner Kebab</li>
-                  <li>Apfelstrudel</li>
-                  <li>Bretzels</li>
-                  <li>
-                    Berliner Donuts: lochlose mit Marmelade gefüllte Donuts
-                  </li>
-                  <li>Kartoffelpuffer</li>
-                  <li>
-                    Senfeier: hartgekochte Eier und serviert mit Kartoffelpüree,
-                    alles überzogen mit einer cremigen Senfsauce.
-                  </li>
-                  <li>Kassler: gesalzenes und geräuchertes Schweinefleisch</li>
-                  <li>Currywurst</li>
+                  Eldoret offers a wide range of hotels, from budget stays to 4-star business hotels:
+
+High-end hotels Boma Inn Eldoret, Eka Hotel, Sixty Four Resort, Noble Hotel, Poa Place Resort.
+
+Mid-range & boutique hotels Sirikwa Hotel, Wagon Hotel, Goshen Inn, Comfy Hotel.
+
+Budget & guesthouses Many smaller lodges and Airbnb options, popular with students, backpackers, and athletes.
+
+Athletics camps & training centers Eldoret hosts specialized facilities for runners, attracting international athletes.
                 </AnimatedList>
               </div>
             </div>
 
             <AnimatedParagraph fullWidth={true}>
-              Wir auflisten einige die beste Restaurants auf Berlin:
+              Karibu Uasin Gishu
             </AnimatedParagraph>
           </section>
           <RestaurantMap />
           <div className="info-block">
-            <h1 className="info-heading heading-center">Tourismus</h1>
+            <h1 className="info-heading heading-center">HealthCare</h1>
             <div className="horizontal-line"></div>
             <div className="info-inner-container-reversed reversed-text-first">
               <AnimatedParagraph
                 additionalClassName="large-width"
                 position="right"
               >
-                Berlin ist ein beliebter Ort für Touristen, weil gibt so viele
-                Dinge zu machen es! Es gibt eine Menge Museen, ikonische
-                Gebäude, und Denkmäler, und sich nie langweilen! Es ist die
-                dritt meistbesuchte Stadt der Welt, und laut die Statistiken von
-                <Link href="https://www.visitberlin.de/de" comma>
-                  Visit Berlin
+                Serves a catchment of over 25 million people across Kenya and neighboring countries like Uganda, South Sudan, Northern Tanzania, and DR Congo 
+                Functions as a level-six hospital, offering both inpatient and outpatient services as well as specialized care
+                Offers a wide range of advanced medical services including:
+
+Cochlear, kidney, and corneal transplants
+
+Open-heart, spinal, neurosurgery, and orthopedic trauma surgeries
+
+Cardiology, oncology, ICU, alcohol/drug rehabilitation
+
+Postpartum IUD services and 24-hour trauma surgery 
+mtrh.go.ke
+.
+
+Home to multiple centers of excellence:
+
+Chandaria Cancer & Chronic Diseases Centre
+
+Riley Mother & Baby Hospital (with East Africa’s first neonatal ICU)
+
+AMPATH (ACC, HIV treatment)
+
+A modern ICU, mental health unit, and haemodialysis unit
+                <Link href="https://portal.mtrh.go.ke/" comma>
+                  Moi Teaching & Referal Hospital
                 </Link>
-                es gab insgesamt etwa 14 Millionen in 2019! (lass uns nicht über
-                2020/2021 reden)
+                
               </AnimatedParagraph>
               <AnimatedImage
                 position="left"

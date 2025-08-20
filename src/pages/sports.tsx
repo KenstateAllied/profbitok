@@ -76,32 +76,14 @@ export default function Sports() {
           Markets and Leadership
         </h1>
         <div className="ps-relative dp-block margined-div">
-          Berlin ist eine Stadt überlegen in viele Felder, einschließlich
-          Sportarten. Es ist eine Stadt voller Sporteinrichtungen und
-          leidenschaftlich über Sport sind die Bürger auch. Die berliner spielen
-          ziemlich gern <Highlight>Fußball</Highlight>, und es gibt zwei große
-          in Berlin, sie sind Hertha BSC und FC Union Berlin. Außerdem, gibt es
-          andere Sportarten wie <Highlight>Handball</Highlight>,
-          <Highlight>Basketball</Highlight>, <Highlight>Eishockey</Highlight>,
-          <Highlight>Marathon</Highlight>, <Highlight>Radfahren</Highlight>,
-          <Highlight>Volleyball</Highlight>, und <Highlight>Snooker</Highlight>.
-          <br />
-          <br />
-          In Berlin finden viele Sportveranstaltungen statt, zum Beispiel,
-          einige der besten ist
-          <Highlight>die Olympische Sommerspiele in 1936</Highlight> und
-          <Highlight>
-            die FIFA Fußball Weltmeisterschaftfinale in 2006
-          </Highlight>
-          . Es gibt auch anderen wie
-          <Highlight>
-            die FIFA Fußball Weltmeisterschaftfinale Gruppe A in 1974
-          </Highlight>
-          und
-          <Highlight>die UEFA Champions-League-Finale in 2015</Highlight>.
-          <br />
-          <br />
-          <SportsSwiper />
+          Future farming strengths <br/>
+      Mechanized farming due to large tracts of land.
+
+      Value addition through maize milling, milk processing, and wheat flour.
+
+      Contract farming with big processors (e.g., Kenya Breweries for barley).
+
+      Youth embracing agribusiness ventures like poultry, greenhouse farming, and agritech solutions.
         </div>
         <h1 style={{ margin: "35px" }} className="info-heading">
           Uasin Gishu Current Leaders

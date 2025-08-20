@@ -8,13 +8,13 @@ const PrivacyPolicies: NextPage = () => {
       <Nav />
       <div className="page-content">
         <div className="policies-container">
-          <h1>Privacy Policy for Dream of Berlin</h1>
+          <h1>Privacy Policy for Uasin Gishu County</h1>
 
           <p>
-            At Dream of Berlin, accessible from dream-of-berlin.netlify.app, one
+            At Uasin Gishu County, accessible from uasingishu.netlify.app, one
             of our main priorities is the privacy of our visitors. This Privacy
             Policy document contains types of information that is collected and
-            recorded by Dream of Berlin and how we use it.
+            recorded by Uasin Gishu County and how we use it.
           </p>
 
           <p>
@@ -72,7 +72,7 @@ const PrivacyPolicies: NextPage = () => {
           <h2>Log Files</h2>
 
           <p>
-            Dream of Berlin follows a standard procedure of using log files.
+            Uasin Gishu County follows a standard procedure of using log files.
             These files log visitors when they visit websites. All hosting
             companies do this and a part of hosting services' analytics. The
             information collected by log files include internet protocol (IP)
@@ -88,13 +88,13 @@ const PrivacyPolicies: NextPage = () => {
 
           <p>
             You may consult this list to find the Privacy Policy for each of the
-            advertising partners of Dream of Berlin.
+            advertising partners of Uasin Gishu County.
           </p>
 
           <p>
             Third-party ad servers or ad networks uses technologies like
             cookies, JavaScript, or Web Beacons that are used in their
-            respective advertisements and links that appear on Dream of Berlin,
+            respective advertisements and links that appear on Uasin Gishu County,
             which are sent directly to users' browser. They automatically
             receive your IP address when this occurs. These technologies are
             used to measure the effectiveness of their advertising campaigns
@@ -103,14 +103,14 @@ const PrivacyPolicies: NextPage = () => {
           </p>
 
           <p>
-            Note that Dream of Berlin has no access to or control over these
+            Note that Uasin Gishu County has no access to or control over these
             cookies that are used by third-party advertisers.
           </p>
 
           <h2>Third Party Privacy Policies</h2>
 
           <p>
-            Dream of Berlin's Privacy Policy does not apply to other advertisers
+            Uasin Gishu County's Privacy Policy does not apply to other advertisers
             or websites. Thus, we are advising you to consult the respective
             Privacy Policies of these third-party ad servers for more detailed
             information. It may include their practices and instructions about
@@ -196,7 +196,7 @@ const PrivacyPolicies: NextPage = () => {
           </p>
 
           <p>
-            Dream of Berlin does not knowingly collect any Personal Identifiable
+            Uasin Gishu County does not knowingly collect any Personal Identifiable
             Information from children under the age of 13. If you think that
             your child provided this kind of information on our website, we
             strongly encourage you to contact us immediately and we will do our

@@ -22,12 +22,10 @@ const Credit: NextPage = () => {
         <div className="policies-container">
           <h1 className="info-heading">Credit</h1>
           <h6 className="info-heading">
-            Cristina: Information collection(political parties, traditional
-            dishes, celebrities, tourism, food)
+            Software Developers
           </h6>
           <h6 className="info-heading">
-            Tim: Dev and information collection(sports, brief history, dialects,
-            attractions, olympians).
+            Kenstate Allied : Digital @ your Service
           </h6>
           {spacer}
         </div>

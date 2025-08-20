@@ -8,43 +8,43 @@ const PROGRESSBAR_VARIANT = "success";
 
 const PARTY_DATA = [
   {
-    name: "Sozialdemokratische Partei Deutschlands",
+    name: "Maize",
     votes: 352369,
   },
   {
-    name: "Christlich Demokratische Union Deutschlands",
+    name: "Wheat",
     votes: 288002,
   },
   {
-    name: "Die Linke",
+    name: "Dairy",
     votes: 255740,
   },
   {
-    name: "Bündnis 90/Die Grünen",
+    name: "Dorper & Dairy Goats",
     votes: 248243,
   },
   {
-    name: "Alternative für Deutschland",
+    name: "Potatoes & Vegetables",
     votes: 231325,
   },
   {
-    name: "Freie Demokratische Partei",
+    name: "Coffee",
     votes: 109431,
   },
   {
-    name: "Die Partei",
+    name: "Poultry",
     votes: 31908,
   },
   {
-    name: "Animal Protection Party",
+    name: "Barley",
     votes: 30565,
   },
   {
-    name: "Pirate Party",
+    name: "Beef Cattle",
     votes: 30565,
   },
   {
-    name: "Graue Panther",
+    name: "Horticulture",
     votes: 18135,
   },
 ];
@@ -72,11 +72,11 @@ const Parties: NextPage = () => {
     <>
       <div className="page-header" id="parties-page-header">
         <Nav transparent={false} />
-        <h1 className="page-heading">Politische Parteien</h1>
+        <h1 className="page-heading">Kenya's Breadbasket</h1>
       </div>
       <div id="sports-page" className="page-content">
         <div className="content-wrapper">
-          <h1>Eine Bestenliste von die politische Parteien</h1>
+          <h1>Main Economic Activities</h1>
           <table className="political-leaderboard">
             <tbody>
               {PARTY_DATA.map((each) => {
