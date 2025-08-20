@@ -98,9 +98,9 @@ export const Footer: FC = () => {
           <h5 className="footer-column-title">Uasin Gishu</h5>
           <FooterColumnLink text="Home" location="/" />
           <FooterColumnLink text="Institutions & Infrastructure" location="/travel-guide" />
-          <FooterColumnLink text="Sports" location="/sports" />
+          <FooterColumnLink text="Politics & Leadership" location="/sports" />
           <FooterColumnLink
-            text="Political Parties"
+            text="Economic Activities"
             location="/political-parties"
           />
         </div>
