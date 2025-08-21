@@ -1,7 +1,7 @@
 import React from "react";
 import { Nav } from "../components/Nav";
-import SportsSwiper from "../components/SportsSwiper";
-import { Highlight } from "../components/Highlight";
+//import SportsSwiper from "../components/SportsSwiper";
+//import { Highlight } from "../components/Highlight";
 import { OlympianCard } from "../components/OlympianCard";
 
 const OLYMPIANS = [
