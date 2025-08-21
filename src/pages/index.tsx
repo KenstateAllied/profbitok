@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { Highlight } from "../components/Highlight";
+//import { Highlight } from "../components/Highlight";
 import { Nav } from "../components/Nav";
 import {
-  AnimatedList,
+  //AnimatedList,
   AnimatedParagraph,
   AnimatedImage,
 } from "../components/Animated";
