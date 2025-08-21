@@ -4,7 +4,8 @@
   "private": true,
   "author": {
     "email": "timbusiness.work07@gmail.com",
-    "name": "Tim"
+    "name": "Tim",
+     "packageManager": "yarn@3.6.4"
   },
   "contributors": [
     {
@@ -38,8 +39,8 @@
     "style-loader": "^2.0.0",
     "styled-components": "^5.3.0",
     "swiper": "^6.6.2",
-    "typescript": "latest",
-    "packageManager": "yarn@3.6.4"
+    "typescript": "latest"
+   
 
   },
   "scripts": {
