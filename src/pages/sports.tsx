@@ -6,9 +6,9 @@ import { OlympianCard } from "../components/OlympianCard";
 
 const OLYMPIANS = [
   {
-    name: "Farouk Teigut",
-    img: "/images/farouk.jpeg",
-    description: "Office of the President",
+    name: "Jackson Mandago",
+    img: "/images/mandago.jpeg",
+    description: "Senator",
   },
   {
     name: "Oscar Sudi",
