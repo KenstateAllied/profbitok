@@ -1,11 +1,12 @@
 {
   "name": "berlin-project",
   "version": "0.1.0",
+  "packageManager": "yarn@3.6.4",
   "private": true,
   "author": {
     "email": "timbusiness.work07@gmail.com",
     "name": "Tim",
-     "packageManager": "yarn@3.6.4"
+     
   },
   "contributors": [
     {
