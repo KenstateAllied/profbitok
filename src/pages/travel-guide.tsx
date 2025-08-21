@@ -36,7 +36,7 @@ const Travel: NextPage = () => {
               <AnimatedParagraph fullWidth={true} position="right">
                 Eldoret City is more than just a gateway—it’s a vital hub for regional trade, a strategic export point for regional farmers, and a potential logistics powerhouse as growth continues
               </AnimatedParagraph>
-              <AttractionsMap />
+              
             </div>
           </div>
           <div className="info-block">
@@ -118,7 +118,7 @@ Athletics camps & training centers Eldoret hosts specialized facilities for runn
               Karibu Uasin Gishu
             </AnimatedParagraph>
           </section>
-          <RestaurantMap />
+          
           <div className="info-block">
             <h1 className="info-heading heading-center">HealthCare</h1>
             <div className="horizontal-line"></div>
